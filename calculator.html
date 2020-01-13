@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <script src="calculator.js"></script>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+    <br />
+    <br />
+    <h1>Simple Calculator</h1>
+    <div>
+    <table id="table-screen" align="center">
+    <tr>
+        <td>
+            <input type="text" id="input" style="width: 350px; height:53px" /></td>
+        </table>
+        <table id="table-body" align= "center";>           
+                <tr>
+                    <td class="firstRowButton" onclick="clearScreen()">AC</td>
+                    <td class="firstRowButton" onclick="getValue('x^2')">x^2</td>
+                    <td class="firstRowButton"  onclick="getValue('/')">÷</td></td>
+                    <td class="firstRowButton" onclick="getValue('*')">*</td>
+                </tr>
+                <tr>
+                    <td class="numberButton" onclick="getValue(7)"> 7</td>
+                    <td class="numberButton" onclick="getValue(8)"> 8</td>
+                    <td class="numberButton"  onclick="getValue(9)"> &nbsp; 9 &nbsp;</td>
+                    <td class="numberButton"  onclick="getValue('-')">-</td>
+                 </tr>
+                 <tr>
+                    <td class="numberButton" onclick="getValue(4)"> 4 </td>
+                    <td class="numberButton" onclick="getValue(5)"> 5 </td>
+                    <td class="numberButton" onclick="getValue(6)"> 6 </td>
+                    <td class="numberButton" onclick="getValue('+')"> + </td>
+                 </tr>
+                 <tr>
+                    <td class="numberButton" onclick="getValue(1)"> 1 </td>
+                    <td class="numberButton" onclick="getValue(2)"> 2 </td>
+                    <td class="numberButton" onclick="getValue(3)"> 3 </td>
+                    <td  rowspan="2" id="equalButton" onclick="getValue('=')"> &nbsp; = &nbsp;</td>
+                 </tr>
+                 <tr>
+                   <td class="numberButton" colspan="2" onclick="getValue(0)"> 0 </td>
+                   <td class="numberButton" onclick="getValue('.')">.</td>
+                 </tr>
+             </table>
+        </body>
+    </html>

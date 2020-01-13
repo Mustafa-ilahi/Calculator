@@ -1,0 +1,64 @@
+.firstRowButton
+{
+    background-color:darkgoldenrod;;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+}
+.firstRowButton:hover{
+    background-color: #DED114;
+}
+.numberButton
+{
+    background-color: darkslategrey;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.numberButton:hover{
+    background-color: teal;
+}
+
+#equalButton{
+    background-color: darkgoldenrod;;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+}
+
+#equalButton:hover{
+    background-color: #DED114;
+}
+
+#table-body{
+    background-color: black;
+    height: 400px; 
+    width: 360px;
+    border: 4px solid;
+    cursor: default; 
+}
+
+#table-screen{
+    border: 3px solid; 
+    background-color:#000000;
+    border-color: #000000; 
+    height: 50px; 
+    width: 360px;
+    cursor: default;
+}
+
+h1{
+    text-align: center;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+#input{
+    font-size: 25px;
+    border: 0px;
+    border-radius: 50px;
+    cursor: default;
+}
+body{
+    background-image:url(./images/bg-img.jpeg);
+}
